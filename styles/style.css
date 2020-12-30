@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.logo-navbar {
+  width: 100px;
+  margin-top: -15px;
+}
+
+.logo-text {
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.navbar-item {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(61, 60, 54)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.sticky {
+  background-color: rgb(196, 167, 167) !important;
+}
+
+.shadow-nav-scrolled {
+  box-shadow: 1px 10px 22px -1px rgba(0,0,0,0.15);
+}
+
+
+/* 
+  Jumbotron 
+*/
+.jumbotron {
+  margin-top: 100px;
+}
+
+.jumbotron__title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.jumbotron__button {
+  font-size: 20px !important;
+  display: inline-block;
+  color: #3D4132 !important;
+  font-weight: 600 !important;
+  padding: 5px 46px !important;
+  background-color: transparent !important;
+  border: 3px solid black !important;
+  border-radius: 0 !important;
+}
+
+.jumbotron__image-container {
+  margin-top: -15px;
+  width: 100%;
+}
+
+.jumbotron__image-item {
+  width: 60%;
+}
